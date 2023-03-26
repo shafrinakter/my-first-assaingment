@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* primary style */
+.primary-title {
+    font-size: 65px;
+    padding-bottom: 15px;
+
+}
+
+.primary-description {
+    padding-bottom: 15px;
+    color: #444343;
+}
+
+/* header style */
+.header-part {
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+
+
+}
+
+.herder-content {
+    text-align: right;
+    padding: 150px;
+    margin-bottom: 15px;
+}
+
+.header-button {
+    background-color: #F15B22;
+    border: 0;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 130px;
+}
+/* content style */
+section{
+    margin: 100px; 
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+
+}
+.my-plan-section .primary-description{
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.content-description{
+    margin-top: 250px;
+    margin-left: 100px;
+    
+}
+ul{
+    margin-left: 20px;
+    
+    
+}
+ul li{
+    padding-bottom: 10px;
+    font-size: 17px;
+
+}
+ /* plan section */
+ .my-plan{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+
+ }
+ .plan h3, img{
+    padding-bottom: 15px;
+    
+ }
+
+ .gradient-content{
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    position: relative;
+ }
+ .gradient-description{
+    position: absolute;
+    top: 50px;
+    padding-left: 40px;
+    
+ }
+ .gradient-description h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 15px;
+    
+ }
+ .gradient-btn{
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    color: #F15B22;
+    font-size: 15px;
+    font-weight: bold;
+ }
+ /* footer style */
+ footer{
+    background-color: black;
+    color: white;
+    padding: 130px;
+    gap: 50px;
+ }
+ .footer-part{
+    gap: 400px;
+    display: flex;
+ }
+ .footer img{
+    padding-right: 15px;
+    
+
+ }
+ .footer-title{
+    margin-bottom: 15px;
+    font-size: 30px;
+ }
+ .footer-description{
+    color: white;
+    margin-bottom: 20px;
+ }
+ input{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    width: 250px;
+    border-radius: 5px;
+ }
+ .footer-btn{
+    background-color: white;
+    color: #F15B22;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0;
+    padding: 15px;
+    width: 150px;
+    border-radius: 5px;
+
+ }
